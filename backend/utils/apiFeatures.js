@@ -11,7 +11,8 @@ class ApiFeatures{
                 $options: "i", //case insensetive
             }
         }:{};
-        this.query = this.query.find({...keyword}).limit(10);
+         console.log(keyword);
+        this.query = this.query.find({...keyword}).limit(5);
         return this;
     }
 }
