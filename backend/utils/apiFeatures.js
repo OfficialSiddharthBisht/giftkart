@@ -12,7 +12,7 @@ class ApiFeatures{
             }
         }:{};
          console.log(keyword);
-        this.query = this.query.find({...keyword}).limit(5);
+        this.query = this.query.find({...keyword}).limit(10);
         return this;
     }
 }
