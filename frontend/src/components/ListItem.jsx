@@ -1,22 +1,21 @@
 import React from 'react'
 import '../styles/listItem.css';
 
-function ListItem() {
-    let imageUrl = "";
-    let title = ""
-    let caption = ""
+const ListItem = ({title,image,description})=> {
     return (
-        <div className='list-item-container'>
+        <div className='dropdown'>
+        <div className='list-item-container dropdown-content'>
             <div className="left">
-                <img src={imageUrl} className="thumbnail" alt="" />
+                <img src={image} className="thumbnail" alt="" />
             </div>
             <div className='center'>
                 <h4>{title}</h4>
-                <p>{caption}</p>
+                <p>{description}</p>
             </div>
             <div className='right'>
                 <p>&#8250;</p>
             </div>
+        </div>
         </div>
     );
 };
