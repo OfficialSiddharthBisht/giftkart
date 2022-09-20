@@ -12,9 +12,6 @@ const ListItem = ({title,image,description})=> {
                 <h4>{title}</h4>
                 <p>{description}</p>
             </div>
-            <div className='right'>
-                <p>&#8250;</p>
-            </div>
         </div>
         </div>
     );

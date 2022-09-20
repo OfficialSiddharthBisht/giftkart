@@ -9,3 +9,17 @@
     width: 300px;
     padding: 0px 12px 0px 12px;
 }
+.header{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(163, 207, 246);
+    margin: 50px;
+    padding: 25px;
+}
+header input{
+    background-color: azure;
+}
+.header button{
+    border-radius: 30%;
+    font-size: large;
+    cursor: pointer;
+}

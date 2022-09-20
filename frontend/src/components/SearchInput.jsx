@@ -14,7 +14,7 @@ const SearchInput =({value,onChangeText})=> {
         onChange = {onChangeText}
         placeholder = "Search Products"
         />
-        <button>Enter</button>
+        <button>🔎</button>
     </div>
   );
 };

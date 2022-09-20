@@ -16,7 +16,7 @@ function ImageSlider({slides}) {
   }
   const leftArrowStyles ={
     position : "absolute",
-    top : "50%",
+    top : "80%",
     transform : "translate(0, -50%)",
     left: "32px",
     fontSize: "45px",

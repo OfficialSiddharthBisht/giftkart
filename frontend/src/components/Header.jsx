@@ -29,7 +29,7 @@ function Header() {
   },[query])
 
   return(
-    <div>
+    <div className='header'>
       <SearchInput
       value={query}
       onChangeText = {e =>{
