@@ -37,7 +37,7 @@ function Header() {
       }} />
         {
         results.map((result,index)=>{
-          console.log(result.title,result.image,result.description);
+          console.log(result.title);
           <div key={index}>
             <ListItem 
               title = {result.title}
